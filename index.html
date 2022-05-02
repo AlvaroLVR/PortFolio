@@ -14,32 +14,43 @@
 <body>
     <!--HEADER-->
     <div class="container-fluid">
-        <div class="navbar sticky-top navbar-light bg-light header">
+        <div class="d-flex justify-content-end navbar sticky-top header ">
             <ul>
-                <li><a href="www.linkedin.com/in/alvaro-valencia-rojas"><img src="./img/linkedin.svg" alt="LinkedIn" height="29px" width="29px"></a></li>
-                <li><a href="https://www.instagram.com/alvaro.valencia19/"> <img src="./img/instagram-brands.svg" alt="instaLogo" height="30px" width="30px"></a></li>
-                <li><a href="https://github.com/AlvaroLVR"> <img src="./img/github-square-brands.svg" alt="githubLogo" height="30px" width="30px"></a></li>
+                <li class="me-4">
+                    <!-- <a href="www.linkedin.com/in/alvaro-valencia-rojas" target="blank"> -->
+                    <svg class="linkediSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"> <path  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/>
+                    </svg>
+                    <!-- </a> -->
+                </li>
+                <li class="me-4"><a href="https://www.instagram.com/alvaro.valencia19/" target="blank"> <img src="./img/instagram-brands.svg" alt="instaLogo" height="30px" width="30px"></a></li>
+                <li class="me-4"><a href="https://github.com/AlvaroLVR" target="blank"> <img src="./img/github-square-brands.svg" alt="githubLogo" height="30px" width="30px"></a></li>
+                <li class="me-4"><a href="#" target="blank"> <img src="./img/logoWhatsapp.svg" alt="whatsappLogo" height="30px" width="30px"></a></li>
             </ul>
         </div>
     </div>
+
+    
     
     <!--MAIN-->
     <div class="container-fluid main">
-        <button type="button" class="btn btn-primary">Primary</button>
-        
+
         <div class="titulo">
             <h1>Hola! Me llamo Alvaro Valencia Rojas</h1>
             <p>Soy desarrollador Front-end Jr, Tecnico Electronico y estudiante de Leyes.</p>
         </div>
-        <div class="quiensoy">
-            <h2>Quien soy</h2>
-            <p class="secundario">Tengo 22 años, soy Argentino nacido en Buenos Aires. Estudié Tecnicatura en electronica en la escuela Otto Krause en el 2012/18 donde tuve mi primer contacto con la programacion a traves del lenguaje C programando Microcontroladores.</p>
-            <p class="programacion">En 2018 tome un curso de programacion Front end del GCBA llamado Codo A codo, una inicatica del sector empresarial IT en busca de capacitar sobre tecnologias en demanda mundial. 
-            Con el tiempo decidí adentrarme más en el mundo del desarrollo Web y me encuentro aprendiendo front y back end para convertirme en <b>Desarrolladro Full stack</b> en el curso de <i>CoderHouse.</i></p>
+
+        <div class="quiensoy py-5">
+            <h2 class="ps-5 border-bottom border-3 ">Quien soy</h2>
+            <div class="text-justify parrafo">
+                <p class="secundario">Tengo 22 años, soy Argentino nacido en Buenos Aires. Estudié Tecnicatura en electronica en la escuela Otto Krause en el 2012/18 donde tuve mi primer contacto con la programacion a traves del lenguaje C programando Microcontroladores.</p>
+                <p class="programacion">En 2018 tome un curso de programacion Front end del GCBA llamado Codo A codo, una inicatica del sector empresarial IT en busca de capacitar sobre tecnologias en demanda mundial. 
+                Con el tiempo decidí adentrarme más en el mundo del desarrollo Web y me encuentro aprendiendo front y back end para convertirme en <b>Desarrolladro Full stack</b> en el curso de <i>CoderHouse.</i></p>
+            </div>
         </div>
-        <div class="tecnologias">
-            <h2>Tecnologias que manejo</h2>
-            <ul>
+        
+        <div class="tecnologias pt-5">
+            <h2 class="ps-5 border-bottom border-3 ">Tecnologias que manejo</h2>
+            <ul class="d-flex justify-content-around py-5">
                 <li><img src="./img/html.svg" alt="html" class="html" ></li>
                 <li><img src="./img/css.svg" alt="css" ></li>
                 <li><img src="./img/sass.svg" alt="scss" ></li>
@@ -50,11 +61,9 @@
     
     <!--FOOTER-->
     <div class="container-fluid">
-        <nav class="navbar sticky-bottom navbar-light bg-light footer">
-            <div class="container-fluid">
-                <a href="#">Alvaro 2022</a>
-            </div>
-        </nav>
+        <div class="navbar sticky-bottom  footer justify-content-center">
+            <a href="#">Alvaro 2022</a>
+        </div>
     </div>
     
     <!-- JavaScript Bundle with Popper -->

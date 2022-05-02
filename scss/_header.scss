@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    height: 50px;
+    background: #016c57;
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin-bottom: 0 !important;
+        
+       
+        
+        li:hover{
+            animation-name: moviCon;
+            animation-duration: .5s;
+            animation-iteration-count:infinite;
+            @keyframes moviCon {
+                0%{
+                position: relative;
+                left: -3px;
+                }
+                50%{
+                position: relative;
+                left: 3px;
+                }
+                100%{
+                position: relative;
+                left: -3px;
+                }
+            }
+        }
+    }
+}

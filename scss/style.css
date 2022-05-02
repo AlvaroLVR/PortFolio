@@ -1,4 +1,189 @@
-div {
-  background: red;
+.linkediSVG {
+  height: 30px;
+  width: 30px;
+  color: #0066ff;
+}
+
+.linkediSVG path {
+  color: #0066ff;
+}
+
+* {
+  padding: 0% !important;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  background: #016c57;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  margin-bottom: 0 !important;
+}
+
+.header ul li:hover {
+  -webkit-animation-name: moviCon;
+          animation-name: moviCon;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes moviCon {
+  0% {
+    position: relative;
+    left: -3px;
+  }
+  50% {
+    position: relative;
+    left: 3px;
+  }
+  100% {
+    position: relative;
+    left: -3px;
+  }
+}
+
+@keyframes moviCon {
+  0% {
+    position: relative;
+    left: -3px;
+  }
+  50% {
+    position: relative;
+    left: 3px;
+  }
+  100% {
+    position: relative;
+    left: -3px;
+  }
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  background: #3a016c;
+  background: linear-gradient(21deg, #3a016c 30%, #090979 55%, #016c57 89%);
+}
+
+.main .titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 25px 0;
+  width: 30vw;
+  height: auto;
+  position: relative;
+  right: 100px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-animation: infinite;
+          animation: infinite;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-name: esquivar;
+          animation-name: esquivar;
+}
+
+@-webkit-keyframes esquivar {
+  0% {
+    position: relative;
+    right: 100px;
+  }
+  50% {
+    position: relative;
+    right: 800px;
+  }
+  100% {
+    position: relative;
+    right: 100px;
+  }
+}
+
+@keyframes esquivar {
+  0% {
+    position: relative;
+    right: 100px;
+  }
+  50% {
+    position: relative;
+    right: 800px;
+  }
+  100% {
+    position: relative;
+    right: 100px;
+  }
+}
+
+.main .titulo:hover {
+  background: rgba(58, 1, 108, 0.502);
+}
+
+.main .quiensoy {
+  background: rgba(255, 255, 255, 0.24);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
+  height: auto;
+  padding-top: 50px;
+}
+
+.main .quiensoy .parrafo {
+  width: 85vw;
+  margin: auto;
+  padding: 40px 0 40px 0 !important;
+}
+
+.main .tecnologias ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+}
+
+.main .tecnologias ul li img {
+  height: 150px;
+  width: 150px;
 }
 /*# sourceMappingURL=style.css.map */
