@@ -1,15 +1,15 @@
 .header{
     display: flex;
-    height: 50px;
-    background: #016c57;
+    width: auto;
+    height: 60px;
+    background: #016c57de;
+    //box-shadow: 0px 15px 150px black;
     ul{
         display: flex;
         flex-direction: row;
         list-style: none;
         margin-bottom: 0 !important;
-        
-       
-        
+           
         li:hover{
             animation-name: moviCon;
             animation-duration: .5s;

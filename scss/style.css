@@ -1,11 +1,6 @@
-.linkediSVG {
-  height: 30px;
-  width: 30px;
-  color: #0066ff;
-}
-
-.linkediSVG .path {
-  color: #0066ff;
+.SVG {
+  height: 45px;
+  width: 45px;
 }
 
 * {
@@ -20,8 +15,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 50px;
-  background: #016c57;
+  width: auto;
+  height: 60px;
+  background: #016c57de;
 }
 
 .header ul {
@@ -144,10 +140,6 @@
   }
 }
 
-.main .titulo:hover {
-  background: rgba(58, 1, 108, 0.502);
-}
-
 .main .quiensoy {
   background: rgba(255, 255, 255, 0.24);
   display: -webkit-box;
@@ -172,6 +164,7 @@
 }
 
 .main .tecnologias ul {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,8 +175,47 @@
   list-style: none;
 }
 
-.main .tecnologias ul li img {
-  height: 150px;
+.main .tecnologias ul .SVGgrande {
+  height: 200px;
   width: 150px;
+}
+
+.main .tecnologias ul .SVGgrande:hover {
+  -webkit-animation-name: salto;
+          animation-name: salto;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes salto {
+  0% {
+    position: relative;
+    top: 15px;
+  }
+  50% {
+    position: relative;
+    bottom: -15px;
+  }
+  100% {
+    position: relative;
+    top: -15px;
+  }
+}
+
+@keyframes salto {
+  0% {
+    position: relative;
+    top: 15px;
+  }
+  50% {
+    position: relative;
+    bottom: -15px;
+  }
+  100% {
+    position: relative;
+    top: -15px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

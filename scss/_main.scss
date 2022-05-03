@@ -37,9 +37,9 @@
             }
         }
     }
-    .titulo:hover{
-        background: rgba(58, 1, 108, 0.502);
-    }
+    // .titulo:hover{
+    //     background: rgba(58, 1, 108, 0.502);
+    // }
     .quiensoy{
         background: rgba(255, 255, 255, 0.24);
         display: flex;
@@ -56,13 +56,31 @@
     }
     .tecnologias{
         ul{
+            position: relative;
             display: flex;
             flex-direction: row;
             list-style: none;
-            li{
-                img{
-                    height: 150px;
-                    width: 150px;
+            .SVGgrande{
+                height: 200px; 
+                width: 150px;
+            }
+            .SVGgrande:hover{
+                animation-name: salto;
+                animation-duration: 2s;
+                animation-iteration-count:infinite;
+                @keyframes salto {
+                    0%{
+                    position: relative;
+                    top: 15px;
+                    }
+                    50%{
+                    position: relative;
+                    bottom: -15px;
+                    }
+                    100%{
+                    position: relative;
+                    top: -15px;
+                    }
                 }
             }
         }

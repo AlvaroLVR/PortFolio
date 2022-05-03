@@ -1,14 +1,8 @@
-$primary: pink;
-
-.linkediSVG{
-    height: 30px; 
-    width: 30px;
-    color: #0066ff;
-    .path{
-        color: #0066ff;
-
-    }
+.SVG{
+    height: 45px; 
+    width: 45px;
 }
+
 @import '_general.scss';
 @import '_header.scss';
 @import '_main.scss';
