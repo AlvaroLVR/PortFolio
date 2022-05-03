@@ -17,7 +17,7 @@
   display: flex;
   width: auto;
   height: 60px;
-  background: #016c57de;
+  background: transparent !important;
 }
 
 .header ul {
@@ -30,6 +30,7 @@
           flex-direction: row;
   list-style: none;
   margin-bottom: 0 !important;
+  background: transparent !important;
 }
 
 .header ul li:hover {
