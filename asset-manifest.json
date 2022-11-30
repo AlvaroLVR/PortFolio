@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.aa7ac326.css",
+    "main.js": "/portfolio/static/js/main.1d907c8f.js",
+    "static/media/logoutn.png": "/portfolio/static/media/logoutn.69ad044285628b4a7c1a.png",
+    "static/media/codo-a-codo.webp": "/portfolio/static/media/codo-a-codo.62b7ea58070ce7279e20.webp",
+    "static/media/otto-krause-logo.svg": "/portfolio/static/media/otto-krause-logo.3fc7570979a78769f783baabfa7d4e6a.svg",
+    "static/media/coderhouse.svg": "/portfolio/static/media/coderhouse.2dd3bdf503fdf51bf7c277df79d17c29.svg",
+    "static/media/sass.svg": "/portfolio/static/media/sass.83429656077ef9b92989ea3ab23eb4c7.svg",
+    "static/media/loading-assets.svg": "/portfolio/static/media/loading-assets.5e981ecac2bdaf1da0d5ffebefc05128.svg",
+    "static/media/react.svg": "/portfolio/static/media/react.580e6701bd73157abde4bbfd4eb39afe.svg",
+    "static/media/firebase.svg": "/portfolio/static/media/firebase.f1f2c8810aef9970dfe486232adcc0fd.svg",
+    "static/media/skill.svg": "/portfolio/static/media/skill.4c5080525ff97705c098422400bb1ed0.svg",
+    "static/media/assembler.svg": "/portfolio/static/media/assembler.449123a12d5937ecbfb66a7d3fdd8cd3.svg",
+    "static/media/lenguajeC.svg": "/portfolio/static/media/lenguajeC.60c323a7e1b4006030d37c835bceb693.svg",
+    "static/media/about.svg": "/portfolio/static/media/about.e41a6174e9bf6979bac28a45e5ec381b.svg",
+    "static/media/earth-americas-solid.svg": "/portfolio/static/media/earth-americas-solid.e42da1a2319a32e20fbd85dfb2f30c8a.svg",
+    "static/media/proyects.svg": "/portfolio/static/media/proyects.a8cbce952681d0ad2eb8d0a4b558596f.svg",
+    "static/media/studies.svg": "/portfolio/static/media/studies.354bef0b0e97268dab883a659db9c175.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/bootstrap.svg": "/portfolio/static/media/bootstrap.81cabe27cbdd842725e56af7abe61a2c.svg",
+    "static/media/wave-haikei.svg": "/portfolio/static/media/wave-haikei.9a10c90d0dfb3470fbdf618bf902f562.svg",
+    "static/media/arrow-rigth.svg": "/portfolio/static/media/arrow-rigth.3b1fe30ce296a1007eadb998f855f030.svg",
+    "static/media/square-js.svg": "/portfolio/static/media/square-js.169b298a2dc3620c48ca4d87eb63a946.svg",
+    "static/media/circle-scatter-haikei-2.svg": "/portfolio/static/media/circle-scatter-haikei-2.e1a066ffe9ef8ae84e10e52d3968865a.svg",
+    "static/media/contact.svg": "/portfolio/static/media/contact.b429ddc99d1f3ddac8ddbc5c85edd27b.svg",
+    "static/media/envelope-regular.svg": "/portfolio/static/media/envelope-regular.d679b99d87d19d2f5020ee3cd3f4b21d.svg",
+    "static/media/css3-alt.svg": "/portfolio/static/media/css3-alt.4a916ba6ef1c7225135f4b480f33c0c8.svg",
+    "static/media/user-solid.svg": "/portfolio/static/media/user-solid.5a059f7cb8921c0aa8959ac264c28201.svg",
+    "static/media/html5.svg": "/portfolio/static/media/html5.77d7a439746a279f0991cfb95341bb5a.svg",
+    "main.aa7ac326.css.map": "/portfolio/static/css/main.aa7ac326.css.map",
+    "main.1d907c8f.js.map": "/portfolio/static/js/main.1d907c8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa7ac326.css",
+    "static/js/main.1d907c8f.js"
+  ]
+}
