@@ -1,0 +1,28 @@
+.difuminacion{
+    filter: blur(4px);
+}
+
+.mostrar{
+    display: inline;
+}
+
+.ocultar{
+    display: none;
+}
+
+#list-social-media{
+    li{
+        a:hover{
+            color: white !important;
+        }
+    }
+}
+
+.item-hover{
+    a:hover{
+        color: white !important;
+    }
+    p:hover{
+        color: white !important;
+    }
+}
