@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.aa7ac326.css",
-    "main.js": "/portfolio/static/js/main.1d907c8f.js",
+    "main.js": "/portfolio/static/js/main.ceefcd0d.js",
     "static/media/logoutn.png": "/portfolio/static/media/logoutn.69ad044285628b4a7c1a.png",
     "static/media/codo-a-codo.webp": "/portfolio/static/media/codo-a-codo.62b7ea58070ce7279e20.webp",
     "static/media/otto-krause-logo.svg": "/portfolio/static/media/otto-krause-logo.3fc7570979a78769f783baabfa7d4e6a.svg",
@@ -29,10 +29,10 @@
     "static/media/user-solid.svg": "/portfolio/static/media/user-solid.5a059f7cb8921c0aa8959ac264c28201.svg",
     "static/media/html5.svg": "/portfolio/static/media/html5.77d7a439746a279f0991cfb95341bb5a.svg",
     "main.aa7ac326.css.map": "/portfolio/static/css/main.aa7ac326.css.map",
-    "main.1d907c8f.js.map": "/portfolio/static/js/main.1d907c8f.js.map"
+    "main.ceefcd0d.js.map": "/portfolio/static/js/main.ceefcd0d.js.map"
   },
   "entrypoints": [
     "static/css/main.aa7ac326.css",
-    "static/js/main.1d907c8f.js"
+    "static/js/main.ceefcd0d.js"
   ]
 }
