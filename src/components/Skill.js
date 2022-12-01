@@ -13,8 +13,10 @@ import logoAssem from '../img/assembler.svg'
 import backgound from '../img/circle-scatter-haikei-2.svg'
 
 export default function Skill() {
+    //escribir sobre los proyectos que hice, las tecnologias que manejo, mis intereses y mis aspiraciones. 
+
     return (
-        <div className='col-md-9 bg-dark container-fluid ' style={{overflowY: 'scroll', backgroundImage: `url(${backgound})`, backgroundRepeat: 'no-repeat',backgroundSize: 'cover', backgroundPosition: 'center'}} >
+        <div className='col-md-9 bg-dark container-fluid ' style={{ backgroundImage: `url(${backgound})`, backgroundRepeat: 'no-repeat',backgroundSize: 'cover', backgroundPosition: 'center'}} >
             <div className='rows'>
                 <div className='row mt-4'>
                         <h4 className='text-white'>Frameworks and Technologies</h4>
@@ -35,17 +37,11 @@ export default function Skill() {
                         </div>
                 </div>
                 <div className='row mt-4'>
-                    <h4 className='text-white'>Aspirations</h4>
+                    <h4 className='text-white'>Proyects</h4>
                     <div className='col-md-9 container'>
                         <p className='text-white fs-6 lh-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam itaque aspernatur maiores? Quam nam dolore minima tempora nisi quaerat atque corrupti doloremque sequi enim quod qui praesentium adipisci odit inventore consequatur, aperiam assumenda. Ducimus veniam hic impedit vel dolorem nobis. Sed dignissimos quod tempore rem consectetur fugiat rerum aut earum officia hic facere qui, dolorem placeat! Vitae omnis hic labore minima possimus reprehenderit nesciunt assumenda qui, dignissimos repudiandae, voluptates, velit molestias. </p>
                     </div>
                     <h4 className='text-white'>Knowledge</h4>
-                    <div className='col-md-9 container'>
-                        <p className='text-white fs-6 lh-lg'>
-                        Eligendi ratione accusamus consequatur beatae iusto blanditiis facere eos suscipit dicta in dolorem fugit, nesciunt libero! Provident, repudiandae! Cupiditate laborum aliquam suscipit ex hic quos quia maxime corporis error.
-                        </p>
-                    </div>
-                    <h4 className='text-white'>Interest</h4>
                     <div className='col-md-9 container'>
                         <p className='text-white fs-6 lh-lg'>
                         Eligendi ratione accusamus consequatur beatae iusto blanditiis facere eos suscipit dicta in dolorem fugit, nesciunt libero! Provident, repudiandae! Cupiditate laborum aliquam suscipit ex hic quos quia maxime corporis error.
