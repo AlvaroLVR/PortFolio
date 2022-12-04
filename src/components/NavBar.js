@@ -25,8 +25,7 @@ export default function NavBar() {
             <ul className='navbar-nav ps-3' id='list-social-media'>
                 <li className='nav-item'><a target={'_blank'} href='https://github.com/AlvaroLVR' className='nav-link text-muted'>GitHub</a></li>
                 <li className='nav-item'><a target={'_blank'} href='https://www.linkedin.com/in/alvarolvr/' className='nav-link text-muted'>LinkedIn</a></li>
-                <li className='nav-item'><a target={'_blank'} href='#' className='nav-link text-muted'>Facebook</a></li>
-                <li className='nav-item'><a target={'_blank'} href='#' className='nav-link text-muted'>Instagram</a></li>
+
             </ul>
         </div>
     )

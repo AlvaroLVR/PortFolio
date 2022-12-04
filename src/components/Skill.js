@@ -39,14 +39,9 @@ export default function Skill() {
                 <div className='row mt-4'>
                     <h4 className='text-white'>Proyects</h4>
                     <div className='col-md-9 container'>
-                        <p className='text-white fs-6 lh-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam itaque aspernatur maiores? Quam nam dolore minima tempora nisi quaerat atque corrupti doloremque sequi enim quod qui praesentium adipisci odit inventore consequatur, aperiam assumenda. Ducimus veniam hic impedit vel dolorem nobis. Sed dignissimos quod tempore rem consectetur fugiat rerum aut earum officia hic facere qui, dolorem placeat! Vitae omnis hic labore minima possimus reprehenderit nesciunt assumenda qui, dignissimos repudiandae, voluptates, velit molestias. </p>
+                        <p className='text-white fs-6 lh-lg fw-semibold'>Cooming soon...</p>
                     </div>
-                    <h4 className='text-white'>Knowledge</h4>
-                    <div className='col-md-9 container'>
-                        <p className='text-white fs-6 lh-lg'>
-                        Eligendi ratione accusamus consequatur beatae iusto blanditiis facere eos suscipit dicta in dolorem fugit, nesciunt libero! Provident, repudiandae! Cupiditate laborum aliquam suscipit ex hic quos quia maxime corporis error.
-                        </p>
-                    </div>
+                    
                 </div>
             </div>
         </div>
