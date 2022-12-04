@@ -3,7 +3,8 @@ import logoOtto from '../img/otto-krause-logo.svg'
 import logoUtn from '../img/logoutn.png'
 import logoCoderhouse from '../img/coderhouse.svg'
 import logoCodoACodo from '../img/codo-a-codo.webp'
-import logoUser from '../img/user-solid.svg'
+//import logoUser from '../img/user-solid.svg'
+import logoUser from '../img/fotoCV.png'
 //import backgound from '../img/blurry-gradient-haikei.svg'
 import css from '../scss/style.css'
 import logoEmail from '../img/envelope-regular.svg'
@@ -21,8 +22,8 @@ export default function AboutMeContainer() {
                             <p className='nav-link text-muted ms-4' ><img className='pe-2' src={logoEarth} alt='' style={{ height: '20px' }} />Buenos Aires, Argentina</p>
                         </div>
                     </div>
-                    <div className='col-md-2 my-3 d-flex align-items-center justify-content-center' style={{ width: 'auto', borderRadius: '50%', backgroundColor: 'grey' }}>
-                        <img src={logoUser} className='justify-content-end m-4' alt='' style={{ height: '80px' }} />
+                    <div className='col-md-2 my-3 d-flex align-items-center justify-content-center' >
+                        <img src={logoUser} className='justify-content-end m-4' alt='' style={{ height: '140px',borderRadius: '50%'}} />
                     </div>
                 </div>
                 <div className='row mt-4' >
