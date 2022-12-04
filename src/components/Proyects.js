@@ -9,6 +9,7 @@ import Loading from './Loading'
 export default function Proyects() {
     const [data,setData] = useState([])
     const [loading,setLoading] = useState(true)
+    
 
     useEffect(()=>{
         const db = getFirestore()
@@ -17,7 +18,8 @@ export default function Proyects() {
         .then(res => setData(res.docs.map(res => ({id: res.id,...res.data()}))))
         .then(()=>setLoading(false))
         .catch(()=> console.log('error'))
-    },[data])
+        console.log('renderizado')
+    },[])
 
 
     return (
