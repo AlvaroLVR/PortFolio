@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.aa7ac326.css",
-    "main.js": "/portfolio/static/js/main.8b663fe5.js",
+    "main.js": "/portfolio/static/js/main.d59c22ee.js",
     "static/media/logoutn.png": "/portfolio/static/media/logoutn.69ad044285628b4a7c1a.png",
+    "static/media/fotoCV.png": "/portfolio/static/media/fotoCV.c258a89a9cb1b22ef1f1.png",
     "static/media/codo-a-codo.webp": "/portfolio/static/media/codo-a-codo.62b7ea58070ce7279e20.webp",
     "static/media/otto-krause-logo.svg": "/portfolio/static/media/otto-krause-logo.3fc7570979a78769f783baabfa7d4e6a.svg",
     "static/media/coderhouse.svg": "/portfolio/static/media/coderhouse.2dd3bdf503fdf51bf7c277df79d17c29.svg",
@@ -26,13 +27,12 @@
     "static/media/contact.svg": "/portfolio/static/media/contact.b429ddc99d1f3ddac8ddbc5c85edd27b.svg",
     "static/media/envelope-regular.svg": "/portfolio/static/media/envelope-regular.d679b99d87d19d2f5020ee3cd3f4b21d.svg",
     "static/media/css3-alt.svg": "/portfolio/static/media/css3-alt.4a916ba6ef1c7225135f4b480f33c0c8.svg",
-    "static/media/user-solid.svg": "/portfolio/static/media/user-solid.5a059f7cb8921c0aa8959ac264c28201.svg",
     "static/media/html5.svg": "/portfolio/static/media/html5.77d7a439746a279f0991cfb95341bb5a.svg",
     "main.aa7ac326.css.map": "/portfolio/static/css/main.aa7ac326.css.map",
-    "main.8b663fe5.js.map": "/portfolio/static/js/main.8b663fe5.js.map"
+    "main.d59c22ee.js.map": "/portfolio/static/js/main.d59c22ee.js.map"
   },
   "entrypoints": [
     "static/css/main.aa7ac326.css",
-    "static/js/main.8b663fe5.js"
+    "static/js/main.d59c22ee.js"
   ]
 }
