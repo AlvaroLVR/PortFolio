@@ -8,8 +8,7 @@ import Loading from './Loading'
 
 export default function Proyects() {
     const [data,setData] = useState([])
-    const [loading,setLoading] = useState(true)
-    
+    const [loading,setLoading] = useState(true)   
 
     useEffect(()=>{
         const db = getFirestore()
@@ -20,7 +19,6 @@ export default function Proyects() {
         .catch(()=> console.log('error'))
         console.log('renderizado')
     },[])
-
 
     return (
         <div className='col-md-9 bg-dark text-white container-fluid ' style={{overflowY: 'scroll'}}>

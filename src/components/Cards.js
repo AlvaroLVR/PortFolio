@@ -24,7 +24,7 @@ export default function Cards(props) {
         onMouseLeave={nodifuminacion}> 
           {bandera? 
             <div className='text-justify align-items-end d-flex rounded-1' style={{ backdropFilter: 'blur(15px)', height: 'inherit'}}>     
-              <p className='fs-6 ms-2 pb-2 fw-semibold text-dark' > {props.prop.description}</p>
+              <p className='fs-6 ms-2 pb-2 fw-light text-dark' > {props.prop.description}</p>
             </div>
           :
             <></>

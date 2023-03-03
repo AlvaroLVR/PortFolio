@@ -12,7 +12,7 @@ import logoEarth from '../img/earth-americas-solid.svg'
 
 export default function AboutMeContainer() {
     return (
-        <div className='col-md-9 bg-dark text-white container-fluid' style={{ overflowY: 'scroll' }}>
+        <div className='col-md-9 bg-dark text-white container-fluid' style={{overflowY: 'scroll'}} >
             <div className='rows'>
                 <div className='row d-flex align-items-center pt-4 border-bottom border-1'>
                     <div className='col-md-10 my-3'>
@@ -21,6 +21,7 @@ export default function AboutMeContainer() {
                             <a href='#' className='nav-link text-muted'> <img className='pe-2' src={logoEmail} alt='' style={{ height: '20px' }} /> alvaroleandro74@gmail.com</a>
                             <p className='nav-link text-muted ms-4' ><img className='pe-2' src={logoEarth} alt='' style={{ height: '20px' }} />Buenos Aires, Argentina</p>
                         </div>
+                        <a className='btn btn-outline-light p-2' target={'_blank'} href='https://firebasestorage.googleapis.com/v0/b/portfolio-af80d.appspot.com/o/CurriculumAlvaro.pdf?alt=media&token=e3f859cf-9f84-40b5-97ae-dc133eaf2ac3' download={'https://firebasestorage.googleapis.com/v0/b/portfolio-af80d.appspot.com/o/CurriculumAlvaro.pdf?alt=media&token=e3f859cf-9f84-40b5-97ae-dc133eaf2ac3'}>Download CV</a>
                     </div>
                     <div className='col-md-2 my-3 d-flex align-items-center justify-content-center' >
                         <img src={logoUser} className='justify-content-end m-4' alt='' style={{ height: '140px',borderRadius: '50%'}} />
