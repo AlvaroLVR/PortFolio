@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.aa7ac326.css",
-    "main.js": "/portfolio/static/js/main.352bcc39.js",
+    "main.js": "/portfolio/static/js/main.c415611f.js",
     "static/media/logoutn.png": "/portfolio/static/media/logoutn.69ad044285628b4a7c1a.png",
     "static/media/fotoCV.png": "/portfolio/static/media/fotoCV.c258a89a9cb1b22ef1f1.png",
     "static/media/codo-a-codo.webp": "/portfolio/static/media/codo-a-codo.62b7ea58070ce7279e20.webp",
@@ -23,16 +23,17 @@
     "static/media/wave-haikei.svg": "/portfolio/static/media/wave-haikei.9a10c90d0dfb3470fbdf618bf902f562.svg",
     "static/media/arrow-rigth.svg": "/portfolio/static/media/arrow-rigth.3b1fe30ce296a1007eadb998f855f030.svg",
     "static/media/square-js.svg": "/portfolio/static/media/square-js.169b298a2dc3620c48ca4d87eb63a946.svg",
+    "static/media/correo.php": "/portfolio/static/media/correo.624f478ff27a9a09d420.php",
     "static/media/circle-scatter-haikei-2.svg": "/portfolio/static/media/circle-scatter-haikei-2.e1a066ffe9ef8ae84e10e52d3968865a.svg",
     "static/media/contact.svg": "/portfolio/static/media/contact.b429ddc99d1f3ddac8ddbc5c85edd27b.svg",
     "static/media/envelope-regular.svg": "/portfolio/static/media/envelope-regular.d679b99d87d19d2f5020ee3cd3f4b21d.svg",
     "static/media/css3-alt.svg": "/portfolio/static/media/css3-alt.4a916ba6ef1c7225135f4b480f33c0c8.svg",
     "static/media/html5.svg": "/portfolio/static/media/html5.77d7a439746a279f0991cfb95341bb5a.svg",
     "main.aa7ac326.css.map": "/portfolio/static/css/main.aa7ac326.css.map",
-    "main.352bcc39.js.map": "/portfolio/static/js/main.352bcc39.js.map"
+    "main.c415611f.js.map": "/portfolio/static/js/main.c415611f.js.map"
   },
   "entrypoints": [
     "static/css/main.aa7ac326.css",
-    "static/js/main.352bcc39.js"
+    "static/js/main.c415611f.js"
   ]
 }
