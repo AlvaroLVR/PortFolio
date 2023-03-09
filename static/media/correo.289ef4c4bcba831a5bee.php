@@ -11,5 +11,4 @@
 
     mail($destinatario,$subject,$message,$header);
     echo "<script> alert('el codigo php está funcando)</script>";
-    echo "<script> setTimeout(\"location.href='AboutMeContainer.js'\",1000)</script>";
-?>
+?> 
