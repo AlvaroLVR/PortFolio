@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.aa7ac326.css",
-    "main.js": "/portfolio/static/js/main.1cbd803e.js",
+    "main.js": "/portfolio/static/js/main.d5609b94.js",
     "static/media/logoutn.png": "/portfolio/static/media/logoutn.69ad044285628b4a7c1a.png",
     "static/media/fotoCV.png": "/portfolio/static/media/fotoCV.c258a89a9cb1b22ef1f1.png",
     "static/media/codo-a-codo.webp": "/portfolio/static/media/codo-a-codo.62b7ea58070ce7279e20.webp",
@@ -24,16 +24,16 @@
     "static/media/arrow-rigth.svg": "/portfolio/static/media/arrow-rigth.3b1fe30ce296a1007eadb998f855f030.svg",
     "static/media/square-js.svg": "/portfolio/static/media/square-js.169b298a2dc3620c48ca4d87eb63a946.svg",
     "static/media/circle-scatter-haikei-2.svg": "/portfolio/static/media/circle-scatter-haikei-2.e1a066ffe9ef8ae84e10e52d3968865a.svg",
-    "static/media/correo.php": "/portfolio/static/media/correo.289ef4c4bcba831a5bee.php",
     "static/media/contact.svg": "/portfolio/static/media/contact.b429ddc99d1f3ddac8ddbc5c85edd27b.svg",
     "static/media/envelope-regular.svg": "/portfolio/static/media/envelope-regular.d679b99d87d19d2f5020ee3cd3f4b21d.svg",
     "static/media/css3-alt.svg": "/portfolio/static/media/css3-alt.4a916ba6ef1c7225135f4b480f33c0c8.svg",
     "static/media/html5.svg": "/portfolio/static/media/html5.77d7a439746a279f0991cfb95341bb5a.svg",
+    "static/media/correo.php": "/portfolio/static/media/correo.2b66351c1887197ec34c.php",
     "main.aa7ac326.css.map": "/portfolio/static/css/main.aa7ac326.css.map",
-    "main.1cbd803e.js.map": "/portfolio/static/js/main.1cbd803e.js.map"
+    "main.d5609b94.js.map": "/portfolio/static/js/main.d5609b94.js.map"
   },
   "entrypoints": [
     "static/css/main.aa7ac326.css",
-    "static/js/main.1cbd803e.js"
+    "static/js/main.d5609b94.js"
   ]
 }
