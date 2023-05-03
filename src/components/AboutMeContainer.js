@@ -18,7 +18,7 @@ export default function AboutMeContainer() {
                     <div className='col-md-10 my-3'>
                         <h2>Alvaro Leandro Valencia Rojas</h2>
                         <div className='fs-5 d-flex justify-content-start'>
-                            <a href='#' className='nav-link text-muted'> <img className='pe-2' src={logoEmail} alt='' style={{ height: '20px' }} /> alvaroleandro74@gmail.com</a>
+                            <a href="mailto:alvaroleandro74@gmail.com?Subject=PROPUESTA%20LABORAL" className='nav-link text-muted'> <img className='pe-2' src={logoEmail} alt='' style={{ height: '20px' }} /> alvaroleandro74@gmail.com</a>
                             <p className='nav-link text-muted ms-4' ><img className='pe-2' src={logoEarth} alt='' style={{ height: '20px' }} />Buenos Aires, Argentina</p>
                         </div>
                         <a className='btn btn-outline-light p-2' target={'_blank'} href='https://firebasestorage.googleapis.com/v0/b/portfolio-af80d.appspot.com/o/CurriculumAlvaro.pdf?alt=media&token=e3f859cf-9f84-40b5-97ae-dc133eaf2ac3' download={'https://firebasestorage.googleapis.com/v0/b/portfolio-af80d.appspot.com/o/CurriculumAlvaro.pdf?alt=media&token=e3f859cf-9f84-40b5-97ae-dc133eaf2ac3'}>Download CV</a>

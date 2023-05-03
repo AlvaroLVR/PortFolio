@@ -17,7 +17,7 @@ export default function NavBar() {
                 </p>
             </div>
             <ul className='navbar-nav  pb-2'>
-                <li className='nav-item'><Link to={'/'} className='btn text-white '><img className='pe-1' src={logoStudies} alt=''/>About me</Link></li>
+                <li className='nav-item'><Link to={'/portfolio'} className='btn text-white '><img className='pe-1' src={logoStudies} alt=''/>About me</Link></li>
                 <li className='nav-item'><Link to={'/Proyects'} className='btn text-white '><img className='pe-1' src={logoProyect} alt=''/> Proyects</Link></li>
                 <li className='nav-item'><Link to={'/Skill'} className='btn text-white '><img className='pe-1' src={logoSkill} alt=''/>Skill</Link></li>
                 <li className='nav-item'><Link to={'/Contact'} className='btn text-white '><img className='pe-1' src={logoContact} alt=''/>Contact me</Link></li>

@@ -15,11 +15,11 @@ export default function Cards(props) {
   }
   
   return (
-    <div className='rounded-2 '>
+    <div className='rounded-2 d-flex justify-content-center'>
 
       <div id='divCard' className='text-white'> 
         
-        <div className='bg-white rounded-1' style={{ width: '38w', height: '42vh', backgroundImage: `url(${props.prop.img})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}} 
+        <div className='bg-white rounded-1 d-flex justify-content-center' style={{ width: '32vw', height: '42vh', backgroundImage: `url(${props.prop.img})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}} 
         onMouseEnter={difuminacion} 
         onMouseLeave={nodifuminacion}> 
           {bandera? 

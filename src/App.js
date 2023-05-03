@@ -11,8 +11,9 @@ function App() {
     <div className='container-fluid d-flex ' style={{height: '100vh', padding: '0'}}>
       <BrowserRouter>
         <NavBar/>
+        
         <Routes>
-          <Route path='/' element={<AboutMeContainer/>} />
+          <Route path='/portfolio' element={<AboutMeContainer/>} />
           <Route path='/Proyects' element={<Proyects/>}/>
           <Route path='/Contact' element={<Contact/>} />
           <Route path='/Skill' element={<Skill/>} />

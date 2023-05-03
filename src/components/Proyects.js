@@ -21,7 +21,7 @@ export default function Proyects() {
     },[])
 
     return (
-        <div className='col-md-9 bg-dark text-white container-fluid ' style={{overflowY: 'scroll'}}>
+        <div className='col-md-9 bg-dark text-white container-fluid d-flex' style={{overflowY: 'scroll'}}>
 
             {loading ?
                 <Loading/>
