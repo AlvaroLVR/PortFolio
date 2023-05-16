@@ -1,6 +1,6 @@
 import React from 'react'
 import background from '../img/wave-haikei.svg'
-import php from '../correo.php'
+
 
 
 export default function Contact() {
@@ -16,7 +16,7 @@ export default function Contact() {
         <div className='col-md-8 d-flex flex-column justify-content-center' style={{ height: '80vh' }}>
           <h4 className='text-white text-center'>Are you interested in my work? Put in contact with me! </h4>
           
-          <form  method='POST' action={php}>
+          <form   >
             <div className='border rounded-2 p-3'>
               <div class="row g-3">
                 <div class="col">

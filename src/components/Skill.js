@@ -39,7 +39,9 @@ export default function Skill() {
                 <div className='row mt-4'>
                     <h4 className='text-white'>Proyects</h4>
                     <div className='col-md-9 container'>
-                        <p className='text-white fs-6 lh-lg fw-semibold'>Cooming soon...</p>
+                        <p className='text-white fs-6 lh-lg fw-semibold'></p>
+
+                        <a href='https://alvarolvr.github.io/snake/' className='text-white fs-5' target='_blank'>- Snake</a>
                     </div>
                     
                 </div>
