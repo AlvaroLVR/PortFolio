@@ -19,7 +19,7 @@ export default function Cards(props) {
 
       <div id='divCard' className='text-white'> 
         
-        <div className='bg-white rounded-1 d-flex justify-content-center' style={{ width: '32vw', height: '42vh', backgroundImage: `url(${props.prop.img})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}} 
+        <div className='bg-white rounded-1 d-flex justify-content-center' style={{ width: '32vw', height: '42vh', backgroundImage: `url(${props.prop.img})`, backgroundPosition: 'center'}} 
         onMouseEnter={difuminacion} 
         onMouseLeave={nodifuminacion}> 
           {bandera? 
