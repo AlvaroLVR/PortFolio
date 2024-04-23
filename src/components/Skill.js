@@ -12,6 +12,7 @@ import logoAssem from '../img/assembler.svg'
 //import backgound from '../img/blurry-gradient-haikei.svg'
 import backgound from '../img/circle-scatter-haikei-2.svg'
 
+
 export default function Skill() {
     //escribir sobre los proyectos que hice, las tecnologias que manejo, mis intereses y mis aspiraciones. 
 
@@ -41,7 +42,7 @@ export default function Skill() {
                     <div className='col-md-9 container'>
                         <p className='text-white fs-6 lh-lg fw-semibold'></p>
 
-                        <a href='https://alvarolvr.github.io/snake/' className='text-white fs-5' target='_blank'>- Snake</a>
+                        {/* <a href='https://alvarolvr.github.io/snake/' className='text-white fs-5' target='_blank'>- Snake</a> */}
                     </div>
                     
                 </div>

@@ -1,15 +1,13 @@
 * {
-  font-family: 'Space Grotesk', sans-serif;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .difuminacion {
-  -webkit-filter: blur(4px);
-          filter: blur(4px);
+  filter: blur(4px);
 }
 
 .mostrar {
@@ -27,8 +25,11 @@
 .item-hover a:hover {
   color: white !important;
 }
-
 .item-hover p:hover {
   color: white !important;
 }
-/*# sourceMappingURL=style.css.map */
+
+#link_row:hover img {
+  position: relative;
+  left: 10px;
+}/*# sourceMappingURL=style.css.map */
