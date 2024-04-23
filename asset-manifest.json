@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.aa7ac326.css",
-    "main.js": "/portfolio/static/js/main.d5609b94.js",
+    "main.css": "/portfolio/static/css/main.4be09794.css",
+    "main.js": "/portfolio/static/js/main.57083a16.js",
     "static/media/logoutn.png": "/portfolio/static/media/logoutn.69ad044285628b4a7c1a.png",
     "static/media/fotoCV.png": "/portfolio/static/media/fotoCV.c258a89a9cb1b22ef1f1.png",
     "static/media/codo-a-codo.webp": "/portfolio/static/media/codo-a-codo.62b7ea58070ce7279e20.webp",
@@ -16,9 +16,9 @@
     "static/media/lenguajeC.svg": "/portfolio/static/media/lenguajeC.60c323a7e1b4006030d37c835bceb693.svg",
     "static/media/about.svg": "/portfolio/static/media/about.e41a6174e9bf6979bac28a45e5ec381b.svg",
     "static/media/earth-americas-solid.svg": "/portfolio/static/media/earth-americas-solid.e42da1a2319a32e20fbd85dfb2f30c8a.svg",
+    "index.html": "/portfolio/index.html",
     "static/media/proyects.svg": "/portfolio/static/media/proyects.a8cbce952681d0ad2eb8d0a4b558596f.svg",
     "static/media/studies.svg": "/portfolio/static/media/studies.354bef0b0e97268dab883a659db9c175.svg",
-    "index.html": "/portfolio/index.html",
     "static/media/bootstrap.svg": "/portfolio/static/media/bootstrap.81cabe27cbdd842725e56af7abe61a2c.svg",
     "static/media/wave-haikei.svg": "/portfolio/static/media/wave-haikei.9a10c90d0dfb3470fbdf618bf902f562.svg",
     "static/media/arrow-rigth.svg": "/portfolio/static/media/arrow-rigth.3b1fe30ce296a1007eadb998f855f030.svg",
@@ -28,12 +28,11 @@
     "static/media/envelope-regular.svg": "/portfolio/static/media/envelope-regular.d679b99d87d19d2f5020ee3cd3f4b21d.svg",
     "static/media/css3-alt.svg": "/portfolio/static/media/css3-alt.4a916ba6ef1c7225135f4b480f33c0c8.svg",
     "static/media/html5.svg": "/portfolio/static/media/html5.77d7a439746a279f0991cfb95341bb5a.svg",
-    "static/media/correo.php": "/portfolio/static/media/correo.2b66351c1887197ec34c.php",
-    "main.aa7ac326.css.map": "/portfolio/static/css/main.aa7ac326.css.map",
-    "main.d5609b94.js.map": "/portfolio/static/js/main.d5609b94.js.map"
+    "main.4be09794.css.map": "/portfolio/static/css/main.4be09794.css.map",
+    "main.57083a16.js.map": "/portfolio/static/js/main.57083a16.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa7ac326.css",
-    "static/js/main.d5609b94.js"
+    "static/css/main.4be09794.css",
+    "static/js/main.57083a16.js"
   ]
 }
